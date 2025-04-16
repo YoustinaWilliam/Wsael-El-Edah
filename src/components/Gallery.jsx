@@ -18,7 +18,7 @@ const Gallery = () => {
       {images.map((src, index) => (
         <div className="diamond" key={index}>
           <div className="inner">
-            <img src={`/images/${src}`} alt={`img-${index}`} />
+            <img src={`images/${src}`} alt={`img-${index}`} />
           </div>
         </div>
       ))}

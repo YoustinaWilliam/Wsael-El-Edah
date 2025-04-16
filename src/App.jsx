@@ -16,10 +16,10 @@ function App() {
     <Router>
       <div className="App" style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <NavBAR />
-        <div style={{ marginTop: "50px", flex: "1" }}> {/* Main content - flex-grow: 1 will make it expand */}
+        <div style={{ marginTop: "50px", flex: "1" }}>
           <Routes>
             <Route
-              path="/"
+              path="/Wsael-El-Edah"
               element={
                 <>
                   <div id="home">
@@ -39,12 +39,12 @@ function App() {
                 </>
               }
             />
-            <Route path="/services" element={<ServicesPage />} />
-            <Route path="/children" element={<Children />} />
+            <Route path="/Wsael-El-Edah/services" element={<ServicesPage />} />
+            <Route path="/Wsael-El-Edah/children" element={<Children />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
-        <Footer /> {/* Footer at the bottom */}
+        <Footer />
       </div>
     </Router>
   );

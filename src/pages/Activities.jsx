@@ -14,7 +14,7 @@ function Activities() {
                             img={activity2} 
                             name="منتجات الخدمه" 
                             description="عرض المزيد" 
-                            link="/services"
+                            link="/Wsael-El-Edah/services"
                         />
                     </div>
                     <div className="col-12 col-md-6 d-flex justify-content-center mb-4 mx-auto">
@@ -22,7 +22,7 @@ function Activities() {
                             img={activity1} 
                             name="خدمه الأطفال" 
                             description="عرض المزيد" 
-                            link="/Children"
+                            link="/Wsael-El-Edah/children"
                         />
                     </div>
                 </div>

@@ -12,12 +12,20 @@ const activities = [
 
 const Children = () => {
   return (
-    <div className="container" dir="rtl" style={{ marginBottom: "50px" }}>
+    <div
+      className="container d-flex flex-column align-items-center justify-content-center"
+      dir="rtl"
+      style={{
+        marginTop: "80px",
+        marginBottom: "50px",
+        minHeight: "70vh",
+      }}
+    >
       <h1 className="text-center fw-bold mb-5" style={{ color: "#dc3545", fontSize: "2.7rem" }}>
         أنشطة خدمة الأطفال
       </h1>
 
-      <div className="d-flex flex-wrap justify-content-center gap-4">
+      <div className="d-flex flex-wrap justify-content-center gap-4 w-100">
         {activities.map((activity, index) => (
           <div
             key={index}

@@ -30,16 +30,16 @@ function NavBAR() {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul className="navbar-nav mb-2 mb-lg-0 text-end" style={{ direction: "rtl" }}>
                         <li className="nav-item">
-                            <Link className="nav-link fw-bold" smooth to="/#home">الرئيسية</Link>
+                            <Link className="nav-link fw-bold" smooth to="/Wsael-El-Edah#home">الرئيسية</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link fw-bold" smooth to="/#about">من نحن</Link>
+                            <Link className="nav-link fw-bold" smooth to="/Wsael-El-Edah#about">من نحن</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link fw-bold" smooth to="/#activities">النشاطات</Link>
+                            <Link className="nav-link fw-bold" smooth to="/Wsael-El-Edah#activities">النشاطات</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link fw-bold" smooth to="/#contact">للتواصل</Link>
+                            <Link className="nav-link fw-bold" smooth to="/Wsael-El-Edah#contact">للتواصل</Link>
                         </li>
                         <li className="nav-item">
                             <a

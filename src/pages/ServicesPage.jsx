@@ -7,22 +7,22 @@ const cards = [
   {
     title: "تأجير و بيع ماسكات",
     description: "ماسكات بأنواعها لعروض المسرح والفعاليات.",
-    icon: "/icons/mask.jpeg",
+    icon: "icons/mask.jpeg",
   },
   {
     title: "ماكيتات",
     description: "تصميم وعرض ماكيتات احترافية.",
-    icon: "/icons/maket.jpeg",
+    icon: "icons/maket.jpeg",
   },
   {
     title: "أدوات و ملابس مسرح",
     description: "ملابس واكسسوارات مسرحية بأنواعها.",
-    icon: "/icons/theater.jpeg",
+    icon: "icons/theater.jpeg",
   },
   {
     title: "عرائس بأنواعها",
     description: "عرائس يدوية، ماريونيت، خيال ظل والمزيد.",
-    icon: "/icons/puppet.jpeg",
+    icon: "icons/puppet.jpeg",
   },
 ];
 
