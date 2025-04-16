@@ -1,0 +1,27 @@
+.gallery-container {
+    padding: 50px;
+    gap: 20px;
+  }
+  
+  .diamond {
+    width: 150px;
+    height: 150px;
+    transform: rotate(45deg);
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .inner {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-45deg);
+    overflow: hidden;
+  }
+  
+  .inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
